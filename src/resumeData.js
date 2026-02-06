@@ -11,8 +11,8 @@ export const resumeData = {
         phone: "9356544698",
         resumeUrl: "https://drive.google.com/file/d/1TC7rMCXHGzMQMCt2u3vvfd2hBh7rKDdf/view?usp=sharing",
         social: [
-            { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/prasad-khose/" },
-            { name: "GitHub", icon: Github, url: "https://github.com/Prasad-Khose" },
+            { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/prasad-khose-686b81258" },
+            { name: "GitHub", icon: Github, url: "https://github.com/Prasadkhose09" },
             { name: "Email", icon: Mail, url: "mailto:prasadkhose512@gmail.com" },
         ]
     },
