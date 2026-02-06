@@ -1,0 +1,26 @@
+.footer {
+    padding: 2rem 0;
+    text-align: center;
+    background: #020617;
+    /* Darker than body */
+    border-top: 1px solid var(--glass-border);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.built-with {
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
