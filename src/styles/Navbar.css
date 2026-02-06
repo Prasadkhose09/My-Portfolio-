@@ -31,6 +31,20 @@
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 65%;
+    /* Covers P and half of K approximately */
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
 }
 
 .dot {
