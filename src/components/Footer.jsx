@@ -9,7 +9,7 @@ const Footer = () => {
                     &copy; {new Date().getFullYear()} {resumeData.name}. All rights reserved.
                 </p>
                 <p className="built-with">
-                    Built with React & Vanilla CSS
+                    Built by Prasad Khose
                 </p>
             </div>
         </footer>
